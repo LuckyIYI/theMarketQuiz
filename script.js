@@ -104,7 +104,7 @@
 
   // Creates a list of the answer choices as radio inputs
   function createImages(index) {
-    var radioList = $('<div class = "inline-block">');
+    var radioList = $('<div class = "images-container">');
     var item;
     var input = '';
     let imgIndex = questionCounter;

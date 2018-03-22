@@ -31,9 +31,10 @@ h1 {
     margin-bottom: 40px;
 }
 
-.inline-block {
+.images-container {
 	display: flex;
 	flex-direction: row;
+    margin: 0 100px;
 	justify-content: space-around;
 }
 
@@ -61,10 +62,8 @@ h1 {
 
 
 #container {
-    width:70%;
-	height: 1000px;
     margin:auto;
-    padding: 0 25px 40px 10px;
+    padding: 50px 50px 40px 50px;
     border-radius:5px;
     font-weight: bold;
 }
